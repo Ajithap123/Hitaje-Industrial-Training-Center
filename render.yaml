@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: hitaje-groups
+    runtime: node
+    plan: starter
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ADMIN_USERNAME
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: DATA_FILE
+        value: /var/data/data.json
+      - key: CORS_ORIGINS
+        value: '*'
+    disk:
+      name: hitaje-groups-data
+      mountPath: /var/data
+      sizeGB: 1
