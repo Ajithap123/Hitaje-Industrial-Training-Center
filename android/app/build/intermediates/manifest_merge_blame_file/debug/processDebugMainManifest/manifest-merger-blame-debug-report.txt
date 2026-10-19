@@ -1,0 +1,47 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hitaje.groups"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:2:5-66
+11-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:2:22-64
+12
+13    <application
+13-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:3:5-7:19
+14        android:allowBackup="false"
+14-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:3:117-144
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:label="HITAJE GROUPS"
+17-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:3:50-79
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme"
+19-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:3:18-49
+20        android:usesCleartextTraffic="false" >
+20-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:3:80-116
+21        <activity
+21-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:4:9-6:20
+22            android:name="com.hitaje.groups.MainActivity"
+22-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:4:19-47
+23            android:exported="true" >
+23-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:4:48-71
+24            <intent-filter>
+24-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:5:13-154
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:5:28-79
+25-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:5:36-77
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:5:79-138
+27-->C:\Users\LOQ\Downloads\HITAJE_GROUPS_V6\HITAJE_GROUPS_Full_Project\android\app\src\main\AndroidManifest.xml:5:89-136
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>

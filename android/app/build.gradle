@@ -1,0 +1,14 @@
+plugins {
+    id 'com.android.application' version '8.7.3'
+}
+android {
+    namespace 'com.hitaje.groups'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.hitaje.groups'
+        minSdk 23
+        targetSdk 28
+        versionCode 1
+        versionName '1.0.0'
+    }
+}

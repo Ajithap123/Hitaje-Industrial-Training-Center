@@ -1,0 +1,9 @@
+{
+  "name": "HITAJE GROUPS",
+  "short_name": "HITAJE",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f8fc",
+  "theme_color": "#17365d",
+  "description": "HITAJE GROUPS learning hub"
+}
